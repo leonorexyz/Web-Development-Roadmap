@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables & Forms</title>
+</head>
+<body>
+    <h1>Tables</h1>
+    <table border="1" cellspacing="0" cellpadding="5">
+        <thead>
+            <tr>
+                <th>Nickname</th>
+                <th>Level</th>
+                <th>Guild</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>LeonoreXYZ</td>
+                <td style="text-align: center;">80</td>
+                <td rowspan="2">LeoKingdom</td>
+            </tr>
+            <tr>
+                <td>LeverieXYZ</td>
+                <td style="text-align: center;">79</td>
+            </tr>
+            <tr>
+                <td>Yoz</td>
+                <td style="text-align: center;">85</td>
+                <td>777</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>Forms Registration</h1>
+    <form action="#" method="post">
+        <!-- Username -->
+        
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" required minlength="8" maxlength="15" placeholder="Enter your username..."><br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required minlength="8" maxlength="15" placeholder="Enter your password..."><br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required placeholder="Enter your email..."><br><br>
+
+        <!-- Full Name -->
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname" required placeholder="Enter your full name..."><br><br>
+
+        <!-- Date of Birth -->
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <!-- Age -->
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" required min="18" max="65"><br><br>
+
+        <!-- Gender -->
+        <label for="gender">Gender:</label><br>
+        <label>
+            <input type="radio" name="gender" value="male" required> Male
+        </label>
+        <label>
+            <input type="radio" name="gender" value="male" required> Female
+        </label>
+        <br><br>
+        
+        <!-- Job -->
+        <label for="job">Job:</label><br>
+        <select id="job" name="job" required>
+            <option value="" disabled selected>Select your job</option>
+            <option value="student">Student</option>
+            <option value="engineer">Engineer</option>
+            <option value="teacher">Teacher</option>
+            <option value="doctor">Doctor</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <!-- Address -->
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="50" placeholder="Enter your address..."></textarea><br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>

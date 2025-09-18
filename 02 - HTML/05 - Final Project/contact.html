@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leonore — Contact</title>
+    <meta name="description" content="Get in touch with Leonore via the contact form." />
+    <link rel="canonical" href="https://leonorekingdom.xyz" />
+  </head>
+  <body>
+    <a href="#main" class="skip-link">Skip to content</a>
+
+    <header>
+      <h1>Contact Me</h1>
+      <nav aria-label="Main Navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section>
+        <h2>Game Registration Form</h2>
+        <form action="#" method="post">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required /><br /><br />
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required /><br /><br />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required /><br /><br />
+
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" /><br /><br />
+
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob" /><br /><br />
+
+          <label for="address">Address:</label>
+          <textarea id="address" name="address"></textarea><br /><br />
+
+          <fieldset>
+            <legend>Gender:</legend>
+            <label><input type="radio" name="gender" value="male" /> Male</label>
+            <label><input type="radio" name="gender" value="female" /> Female</label>
+            <label><input type="radio" name="gender" value="other" /> Other</label>
+          </fieldset>
+          <br />
+
+          <label for="job">Job:</label>
+          <select id="job" name="job">
+            <option value="student">Student</option>
+            <option value="developer">Developer</option>
+            <option value="designer">Designer</option>
+            <option value="other">Other</option></select
+          ><br /><br />
+
+          <label for="age">Age:</label>
+          <input type="number" id="age" name="age" min="10" max="100" /><br /><br />
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Leonore. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

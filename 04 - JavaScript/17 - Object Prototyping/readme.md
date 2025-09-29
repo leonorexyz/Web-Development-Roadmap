@@ -1,0 +1,8 @@
+# JavaScript Object Prototyping
+
+* Object Literal
+* Function Declaration
+* Constructor Function (keyword new)
+* Object.create
+* Prototype (seluruh konsep baik tipe data pada JS tersusun dari object dengan prototype)
+* Class

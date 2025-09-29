@@ -1,0 +1,13 @@
+# DOM JavaScript Traversal
+
+- DOM Traversal Method :
+* parentNode
+* parentElement
+* nextSibling
+* nextElementSibling
+* previousSibling
+* previousElementSibling
+
+-preventDefault : method untuk mencegah event / action default suatu element.
+
+-stopPropagation : method untuk mencegah event bubbling

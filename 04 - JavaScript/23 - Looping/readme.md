@@ -1,0 +1,4 @@
+# JavaScript Looping
+
+* for..of (creates a loop iterating over iterating object [string, array, arguments/nodelist, typedarray, map, set, user-defined iterables])
+* for..in (creates a loop only iterating over enumerable)
